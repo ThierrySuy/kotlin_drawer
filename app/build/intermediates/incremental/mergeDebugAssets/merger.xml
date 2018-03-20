@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/assets"/><source path="/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/christophersaez/Documents/projets/kotlin_drawer/app/src/debug/assets"/></dataSet></merger>
