@@ -1,47 +1,53 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:design:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/506d4954119246675501296548aecb2d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9d628da4cc3305f1d2f37dec67dafb33/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e3e3e7a447064b195a36bda6e790a3c3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/a0805e20e738a56f64f5377fd032d395/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/3cc626d251e768894d26e1a192260809/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/77edd2dca0f90de8f9a434add17d15a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/dd55dca199d0892a31c7b70259094f55/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/0e35da0f862e7d21daec25308eda15bf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/5b19fd00f19ce3a2ac004254b1f073b0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/67278c91cca06fa2363a5f0c93b5c9e2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/7a0e8594ab18a77a5ee1b5a50f3f1e80/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/b848af32a04301498f89f9ec2b712a15/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a46fc77b9b8746f38db3ade133b4257/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eda03033b04e9c743a018db117ce6f89/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9d628da4cc3305f1d2f37dec67dafb33/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9d628da4cc3305f1d2f37dec67dafb33/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/a0805e20e738a56f64f5377fd032d395/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/a0805e20e738a56f64f5377fd032d395/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/b848af32a04301498f89f9ec2b712a15/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/b848af32a04301498f89f9ec2b712a15/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
@@ -68,6 +74,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.DetailArticleActivity
+ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:20:9-87
+	android:name
+		ADDED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml:20:19-85
 uses-sdk
 INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
@@ -80,12 +90,14 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chri
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9d628da4cc3305f1d2f37dec67dafb33/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-v4:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e3e3e7a447064b195a36bda6e790a3c3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e3e3e7a447064b195a36bda6e790a3c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/a0805e20e738a56f64f5377fd032d395/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/a0805e20e738a56f64f5377fd032d395/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/3cc626d251e768894d26e1a192260809/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/3cc626d251e768894d26e1a192260809/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/77edd2dca0f90de8f9a434add17d15a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/77edd2dca0f90de8f9a434add17d15a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/8b3c716be1cb1fdd9352fcab64110311/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/dd55dca199d0892a31c7b70259094f55/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/dd55dca199d0892a31c7b70259094f55/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/0e35da0f862e7d21daec25308eda15bf/AndroidManifest.xml:20:5-44
@@ -98,14 +110,16 @@ MERGED from [com.android.support:transition:27.1.0] /Users/christophersaez/.grad
 MERGED from [com.android.support:transition:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/7a0e8594ab18a77a5ee1b5a50f3f1e80/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/b848af32a04301498f89f9ec2b712a15/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/b848af32a04301498f89f9ec2b712a15/AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a46fc77b9b8746f38db3ade133b4257/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a46fc77b9b8746f38db3ade133b4257/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cab76aae67a93f24fd9327ba61177872/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eda03033b04e9c743a018db117ce6f89/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eda03033b04e9c743a018db117ce6f89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/christophersaez/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dd48172bde07c919f9cbbbd0fa7af32a/AndroidManifest.xml:20:5-44
 INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 INJECTED from /Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

@@ -12,8 +12,8 @@ import com.example.biscuit.mydrawer.R
 
 class ArticlesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-    var imageArticle: ImageView? = itemView.findViewById(R.id.articles_imv)
-    var imageTitle: TextView? = itemView.findViewById(R.id.articles_title)
-    var imageDescription: TextView? = itemView.findViewById(R.id.articles_detail)
+    var imageArticle: ImageView = itemView.findViewById(R.id.articles_imv)
+    var imageTitle: TextView = itemView.findViewById(R.id.articles_title)
+    var imageDescription: TextView = itemView.findViewById(R.id.articles_detail)
 
 }
