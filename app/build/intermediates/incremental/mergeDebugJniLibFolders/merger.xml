@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/christophersaez/Documents/projets/kotlin_drawer/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/christophersaez/Documents/projets/kotlin_drawer/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Thierry\AndroidStudioProjects\kotlin_drawer\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Thierry\AndroidStudioProjects\kotlin_drawer\app\src\debug\jniLibs"/></dataSet></merger>

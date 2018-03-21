@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "350206042847",
+    "firebase_url": "https://fir-demo-173bb.firebaseio.com",
+    "project_id": "fir-demo-173bb",
+    "storage_bucket": "fir-demo-173bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350206042847:android:e3760ef7ec646194",
+        "android_client_info": {
+          "package_name": "com.firebasedemo.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350206042847-52svm8lt3aiajcfth60cr0q92fj8mvrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9F2kxk1-EzKRqxMdiHO2iDta7gTEvi0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350206042847:android:4cd3a5e59130e2fc",
+        "android_client_info": {
+          "package_name": "com.example.biscuit.mydrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350206042847-52svm8lt3aiajcfth60cr0q92fj8mvrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9F2kxk1-EzKRqxMdiHO2iDta7gTEvi0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

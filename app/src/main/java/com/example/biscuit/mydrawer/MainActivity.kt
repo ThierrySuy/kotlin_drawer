@@ -10,7 +10,7 @@ import android.support.v4.view.GravityCompat
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments.BtcFragment
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments.EthFragment
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments.HomeFragment
-import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments.TrxFragment
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments.CryptoFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
                 fragmentManager.replace(R.id.content_frame, EthFragment()).commit()
             }
             R.id.nav_trx -> {
-                fragmentManager.replace(R.id.content_frame, TrxFragment()).commit()
+                fragmentManager.replace(R.id.content_frame, CryptoFragment()).commit()
             }
         }
     }

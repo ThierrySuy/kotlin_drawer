@@ -1,10 +1,83 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "C:\\Users\\Thierry\\AndroidStudioProjects\\kotlin_drawer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.0.aar\\2fd994b32d50bf1aefb9c8807acc1348\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "254",
+                        "endColumns": "188",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1878",
+                        "endColumns": "188",
+                        "endOffsets": "2062"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\f139978b6b0ef080c22cfdc8662f903d\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,424,510,614,732,814,895,983,1089,1197,1298,1403,1511,1612,1781,1878",
+                        "endColumns": "108,103,105,85,103,117,81,80,87,105,107,100,104,107,100,168,96,83",
+                        "endOffsets": "209,313,419,505,609,727,809,890,978,1084,1192,1293,1398,1506,1607,1776,1873,1957"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,424,510,614,732,814,895,983,1089,1197,1298,1403,1511,1612,1781,2171",
+                        "endColumns": "108,103,105,85,103,117,81,80,87,105,107,100,104,107,100,168,96,83",
+                        "endOffsets": "209,313,419,505,609,727,809,890,978,1084,1192,1293,1398,1506,1607,1776,1873,2250"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.0.aar\\40b5acf7d8aa73de0d555a5628c355f8\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "212",
+                        "endColumns": "99",
+                        "endOffsets": "311"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2067",
+                        "endColumns": "103",
+                        "endOffsets": "2166"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\b14340843509f982dde2e4f32348244e\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "2255",
+                        "endColumns": "100",
+                        "endOffsets": "2351"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\christophersaez\\Documents\\projets\\kotlin_drawer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\christophersaez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c49082923f8f7dba62ec6e4c5e939e44\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +87,7 @@
                     }
                 },
                 {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\christophersaez\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\b1d6d108e15748a3155b8a7cf1e1d61b\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

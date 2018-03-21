@@ -2,28 +2,54 @@ package com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v4.widget.SwipeRefreshLayout
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import com.example.biscuit.mydrawer.R
-import kotlinx.android.synthetic.main.trx_fragment.*
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.Articles
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.CryptoFragmentPresenter
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.CryptoFragmentPresenterImpl
 
 /**
  * Created by Biscuit on 19/03/2018.
  */
 
-class TrxFragment : Fragment() {
+interface CryptoViewInterface {
+
+    fun onArticlesReceived(articles: List<Articles>?)
+
+}
+
+class CryptoFragment : Fragment(), CryptoViewInterface {
+
+    var presenter : CryptoFragmentPresenter = CryptoFragmentPresenterImpl(this)
+    private var adapter: ArticlesAdapter = ArticlesAdapter()
+    private var pullToRefreshLayout: SwipeRefreshLayout? = null
+
+    override fun onArticlesReceived(articles: List<Articles>?) {
+        adapter.articles = articles
+        adapter.notifyDataSetChanged()
+        pullToRefreshLayout?.isRefreshing = false
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        presenter.refreshArticlesList()
+
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val rootView =  inflater.inflate(R.layout.trx_fragment, container, false)
+        val rv = rootView.findViewById<RecyclerView>(R.id.articles_rv_crypto)
+        val pullToRefreshLaout = rootView.findViewById<SwipeRefreshLayout>(R.id.swipeRefreshLayout)
+        rv.layoutManager = LinearLayoutManager(context)
+        adapter = ArticlesAdapter()
+        rv.adapter = adapter
 
-        val view: View = inflater.inflate(R.layout.trx_fragment, container, false)
-        val btn: Button = view.findViewById(R.id.trx_btn)
-        btn.setOnClickListener{
-            btn.visibility = View.GONE
-            moon_img.visibility = View.VISIBLE
-        }
-
-        return view
+        return rootView
     }
 }

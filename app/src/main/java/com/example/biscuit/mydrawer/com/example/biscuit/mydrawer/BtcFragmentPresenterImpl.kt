@@ -14,7 +14,7 @@ class BtcFragmentPresenterImpl(val viewCallback: BtcViewInterface) : BtcFragment
 
     override fun refreshArticlesList() {
 
-        service.getArticles(object : ArticlesReceivedCallback{
+        service.getArticlesBtc(object : ArticlesBtcReceivedCallback{
             override fun onInternetError() {
             }
 
@@ -27,7 +27,7 @@ class BtcFragmentPresenterImpl(val viewCallback: BtcViewInterface) : BtcFragment
 
 }
 
-interface ArticlesReceivedCallback {
+interface ArticlesBtcReceivedCallback {
     fun onArticlesReceived(articles: List<Articles>?)
     fun onInternetError()
 }

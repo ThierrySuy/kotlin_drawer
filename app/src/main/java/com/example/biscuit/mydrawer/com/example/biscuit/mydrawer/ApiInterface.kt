@@ -14,4 +14,7 @@ interface ApiInterface {
 
     @GET("/ethereum/feed")
     fun getEthereumArticles() : Call<ArticlesObjectResponse>
+
+    @GET("/crypto-monnaies/feed")
+    fun getCryptoArticles() : Call<ArticlesObjectResponse>
 }

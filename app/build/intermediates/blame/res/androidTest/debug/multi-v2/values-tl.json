@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "C:\\Users\\christophersaez\\Documents\\projets\\kotlin_drawer\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-tl/values-tl.xml",
+                    "source": "C:\\Users\\christophersaez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c49082923f8f7dba62ec6e4c5e939e44\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,1926",
+                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
+                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2005"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\christophersaez\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\b1d6d108e15748a3155b8a7cf1e1d61b\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,15 +29,78 @@
                         "endColumns": "100",
                         "endOffsets": "2106"
                     }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Thierry\\AndroidStudioProjects\\kotlin_drawer\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-tl\\values-tl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.0.aar\\40b5acf7d8aa73de0d555a5628c355f8\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2131",
+                        "endColumns": "104",
+                        "endOffsets": "2231"
+                    }
                 },
                 {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-tl/values-tl.xml",
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.0.aar\\2fd994b32d50bf1aefb9c8807acc1348\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "204",
+                        "endOffsets": "451"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1926",
+                        "endColumns": "204",
+                        "endOffsets": "2126"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\f139978b6b0ef080c22cfdc8662f903d\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,1926",
                         "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
                         "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2005"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,2236",
+                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
+                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2315"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Thierry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\b14340843509f982dde2e4f32348244e\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "2320",
+                        "endColumns": "100",
+                        "endOffsets": "2416"
                     }
                 }
             ]

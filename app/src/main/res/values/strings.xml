@@ -4,5 +4,7 @@
     <string name="btc">BTC</string>
     <string name="eth">ETH</string>
     <string name="trx">TRX</string>
+    <string name="CPT">cpt</string>
+    <string name="crypto">CPO</string>
 
 </resources>
