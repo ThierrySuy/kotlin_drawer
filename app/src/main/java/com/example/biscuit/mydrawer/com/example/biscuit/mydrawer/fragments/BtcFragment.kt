@@ -7,9 +7,9 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import com.example.biscuit.mydrawer.R
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPresenter
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPresenterImpl
 
 /**
  * Created by Biscuit on 19/03/2018.
@@ -17,11 +17,11 @@ import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPres
 
 class BtcFragment : Fragment() {
 
-    var presenter : BtcFragmentPresenter? = null
+    var presenter : BtcFragmentPresenter = BtcFragmentPresenterImpl()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        presenter.refreshArticlesList()
 
     }
 
