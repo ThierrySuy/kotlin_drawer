@@ -14,7 +14,7 @@ import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.DetailArticleAc
 
 class ArticlesAdapter : RecyclerView.Adapter<ArticlesViewHolder>() {
 
-    var articles = arrayListOf<Articles>()
+    var articles : List<Articles>? = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticlesViewHolder {
         val view = parent.inflate(R.layout.cell_articles)
@@ -22,16 +22,21 @@ class ArticlesAdapter : RecyclerView.Adapter<ArticlesViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return articles.size
+        return if (articles == null) {
+            0
+        } else {
+            articles!!.size
+        }
+
     }
 
     override fun onBindViewHolder(holder: ArticlesViewHolder, position: Int) {
         val context = holder.itemView.context
-        val article = articles.get(position)
+        val article = articles?.get(position)
 
-        holder.imageTitle.text = article.title
-        Glide.with(context).load(article.imageUrl).into(holder.imageArticle)
-        holder.imageDescription.text = article.description
+        holder.imageTitle.text = article?.title
+        Glide.with(context).load(article?.imageUrl).into(holder.imageArticle)
+        holder.imageDescription.text = article?.description
 
         holder.itemView.setOnClickListener({
             context.startActivity(Intent(context, DetailArticleActivity::class.java))

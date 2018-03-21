@@ -159,38 +159,6 @@
             ]
         },
         {
-            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-ta/values-ta.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1957",
-                        "endColumns": "100",
-                        "endOffsets": "2053"
-                    }
-                },
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-ta/values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
-                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
-                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
@@ -218,6 +186,38 @@
                         "startOffsets": "1811",
                         "endColumns": "100",
                         "endOffsets": "1907"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1957",
+                        "endColumns": "100",
+                        "endOffsets": "2053"
+                    }
+                },
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
+                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
+                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
                     }
                 }
             ]
@@ -477,38 +477,6 @@
             ]
         },
         {
-            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-es-rUS/values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,334,442,527,628,751,836,918,1000,1112,1212,1313,1421,1528,1635,1794,1894",
-                        "endColumns": "119,108,107,84,100,122,84,81,81,111,99,100,107,106,106,158,99,81",
-                        "endOffsets": "220,329,437,522,623,746,831,913,995,1107,1207,1308,1416,1523,1630,1789,1889,1971"
-                    }
-                },
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-es-rUS/values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1976",
-                        "endColumns": "100",
-                        "endOffsets": "2072"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat",
             "map": [
                 {
@@ -536,6 +504,38 @@
                         "startOffsets": "1937",
                         "endColumns": "100",
                         "endOffsets": "2033"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,334,442,527,628,751,836,918,1000,1112,1212,1313,1421,1528,1635,1794,1894",
+                        "endColumns": "119,108,107,84,100,122,84,81,81,111,99,100,107,106,106,158,99,81",
+                        "endOffsets": "220,329,437,522,623,746,831,913,995,1107,1207,1308,1416,1523,1630,1789,1889,1971"
+                    }
+                },
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1976",
+                        "endColumns": "100",
+                        "endOffsets": "2072"
                     }
                 }
             ]
@@ -684,38 +684,6 @@
             ]
         },
         {
-            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1943",
-                        "endColumns": "100",
-                        "endOffsets": "2039"
-                    }
-                },
-                {
-                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,304,423,507,614,731,809,888,969,1079,1186,1284,1390,1497,1598,1759,1862",
-                        "endColumns": "103,94,118,83,106,116,77,78,80,109,106,97,105,106,100,160,102,80",
-                        "endOffsets": "204,299,418,502,609,726,804,883,964,1074,1181,1279,1385,1492,1593,1754,1857,1938"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat",
             "map": [
                 {
@@ -743,6 +711,38 @@
                         "startOffsets": "1949",
                         "endColumns": "100",
                         "endOffsets": "2045"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/christophersaez/Documents/projets/kotlin_drawer/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/b1d6d108e15748a3155b8a7cf1e1d61b/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1943",
+                        "endColumns": "100",
+                        "endOffsets": "2039"
+                    }
+                },
+                {
+                    "source": "/Users/christophersaez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c49082923f8f7dba62ec6e4c5e939e44/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,304,423,507,614,731,809,888,969,1079,1186,1284,1390,1497,1598,1759,1862",
+                        "endColumns": "103,94,118,83,106,116,77,78,80,109,106,97,105,106,100,160,102,80",
+                        "endOffsets": "204,299,418,502,609,726,804,883,964,1074,1181,1279,1385,1492,1593,1754,1857,1938"
                     }
                 }
             ]

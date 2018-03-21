@@ -6,8 +6,8 @@
     android:orientation="horizontal"
     android:background="#efefef">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         tools:src="@android:drawable/alert_dark_frame"
         android:id="@+id/articles_imv"
         android:layout_gravity="center_vertical"/>
@@ -20,7 +20,7 @@
         <TextView
             android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold"
-            android:textSize="20dp"
+            android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/articles_title"
@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/articles_detail"
             tools:text="Je suis une descriptions\nsjdjdjdjdjdjj"
-            android:lines="2"/>
+            android:lines="2"
+            android:textSize="14sp"/>
     </LinearLayout>
 
 </LinearLayout>

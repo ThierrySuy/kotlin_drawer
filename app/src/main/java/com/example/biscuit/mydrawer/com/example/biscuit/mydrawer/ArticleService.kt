@@ -27,13 +27,22 @@ class ArticleService {
     }
 
 
-    fun getArticles() {
+    fun getArticles(callback: ArticlesReceivedCallback) {
         api?.getBitcoinArticles()?.enqueue(object: Callback<ArticlesObjectResponse>{
             override fun onFailure(call: Call<ArticlesObjectResponse>?, t: Throwable?) {
-                 }
+                callback.onInternetError()
+            }
 
             override fun onResponse(call: Call<ArticlesObjectResponse>?, response: Response<ArticlesObjectResponse>?) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                val image =  response?.body()?.channel?.image
+                val articles = response?.body()?.channel?.articles
+                articles?.forEach {
+                    it.imageUrl = image?.imageUrl
+                }
+
+
+                callback.onArticlesReceived(articles)
+
             }
 
         })

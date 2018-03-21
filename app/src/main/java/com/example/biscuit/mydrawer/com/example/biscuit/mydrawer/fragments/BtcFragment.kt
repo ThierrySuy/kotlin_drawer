@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.biscuit.mydrawer.R
+import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.Articles
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPresenter
 import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPresenterImpl
 
@@ -15,22 +16,34 @@ import com.example.biscuit.mydrawer.com.example.biscuit.mydrawer.BtcFragmentPres
  * Created by Biscuit on 19/03/2018.
  */
 
-class BtcFragment : Fragment() {
+interface BtcViewInterface {
 
-    var presenter : BtcFragmentPresenter = BtcFragmentPresenterImpl()
+    fun onArticlesReceived(articles: List<Articles>?)
+
+}
+
+class BtcFragment : Fragment(), BtcViewInterface {
+
+    var presenter : BtcFragmentPresenter = BtcFragmentPresenterImpl(this)
+    private var adapter: ArticlesAdapter = ArticlesAdapter()
+
+    override fun onArticlesReceived(articles: List<Articles>?) {
+        adapter.articles = articles
+        adapter.notifyDataSetChanged()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         presenter.refreshArticlesList()
 
     }
-
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val rootView =  inflater.inflate(R.layout.btc_fragment, container, false)
         val rv = rootView.findViewById<RecyclerView>(R.id.articles_rv)
         rv.layoutManager = LinearLayoutManager(context)
-        rv.adapter = ArticlesAdapter()
+        rv.adapter = adapter
 
 
 
